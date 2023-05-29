@@ -38,6 +38,8 @@ Button(“Displayed text”) {
 }
 ```
 
+[Docs](https://developer.apple.com/documentation/swiftui/button)
+
 #### Flutter
 
 ```Dart
@@ -58,6 +60,8 @@ Button(
     Text(“Displayed Text”)
 }
 ```
+
+[Docs](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#button)
 
 ## Image
 
