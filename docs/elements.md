@@ -10,17 +10,23 @@ Everyone of the frameworks has similar basic building blocks
 Text(“Sample Text”)
 ```
 
+[Docs](https://developer.apple.com/documentation/swiftui/text)
+
 #### Flutter
 
 ```Dart
 Text(‘Sample Text’);
 ```
 
+[Docs](https://api.flutter.dev/flutter/widgets/Text-class.html)
+
 #### Jetpack Compose
 
 ```Kotlin
 Text(“Sample Text”)
 ```
+
+[Docs](https://developer.android.com/jetpack/compose/text)
 
 ## Button
 
