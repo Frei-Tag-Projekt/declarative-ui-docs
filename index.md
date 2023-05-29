@@ -26,5 +26,6 @@ Flutter is an open-source UI toolkit developed by Google for building natively c
 
 # Detailed comparison 
 
-* [Elements](./docs/elements)
+* [Elements](./docs/elements) 
 * [Composing](./docs/composing)
+* [Structuring](./docs/structure)
