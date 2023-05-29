@@ -1,1 +1,14 @@
-Welcome to the Declarative UI Docs. The goal of this documentation is to make switching between declarative ui frameworks easy. It is also helpful to compare different concepts and similarities to learn from each other
+Welcome to the Declarative UI Docs. The goal of this documentation is to make switching between declarative ui frameworks easy. It is also helpful to compare different concepts and similarities to learn from each other.
+
+# Explanation declarative ui
+
+# Overview of different frameworks
+
+## React
+
+## SwiftUI 
+
+## Jetpack Compose
+
+## Flutter
+
