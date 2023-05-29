@@ -23,8 +23,12 @@ SwiftUI is a modern declarative framework developed by Apple for building user i
 ## Jetpack Compose
 Jetpack Compose is a modern UI toolkit developed by Google for building native Android applications. It enables developers to create dynamic and interactive user interfaces using a declarative and composable approach. With Compose, developers can express the UI hierarchy and behavior as a function of the current state, simplifying UI development. It provides a wide range of customizable and reusable components, allowing for rapid prototyping and iteration. Jetpack Compose seamlessly integrates with existing Android codebases and supports live previews, enabling real-time UI development and testing. It offers improved performance and productivity compared to traditional Android UI frameworks, making it a powerful tool for building beautiful and responsive Android apps.
 
+![Jetpack Compose Logo](./resources/jetpackcompose.png)
+
 ## Flutter
 Flutter is an open-source UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop platforms. It uses a single codebase to create visually appealing and performant user interfaces. Flutter follows a reactive and declarative programming model, allowing developers to build UIs by composing widgets. It offers a rich set of customizable and pre-built widgets, enabling fast and efficient development. Flutter’s hot reload feature allows developers to see changes instantly, enhancing the development experience. With its high-performance rendering engine, Flutter delivers smooth and native-like experiences across multiple platforms, making it a popular choice for cross-platform app development.
+
+![Flutter Logo](./resources/flutter.png)
 
 # Detailed comparison 
 
