@@ -120,3 +120,13 @@ Button(“Present Sheet”) {
   Text(“Sheet is presented”)
 }
 ```
+
+#### Jetpack Compose
+
+```Kotlin
+ModalBottomSheet(onDismissRequest = { /* Executed when the sheet is dismissed */ }) {
+    Text(”Sheet is presented”)
+}
+```
+
+[Docs](https://developer.android.com/jetpack/compose/layouts/material#bottom-sheets)
