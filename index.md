@@ -23,3 +23,7 @@ Jetpack Compose is a modern UI toolkit developed by Google for building native A
 
 ## Flutter
 Flutter is an open-source UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop platforms. It uses a single codebase to create visually appealing and performant user interfaces. Flutter follows a reactive and declarative programming model, allowing developers to build UIs by composing widgets. It offers a rich set of customizable and pre-built widgets, enabling fast and efficient development. Flutter’s hot reload feature allows developers to see changes instantly, enhancing the development experience. With its high-performance rendering engine, Flutter delivers smooth and native-like experiences across multiple platforms, making it a popular choice for cross-platform app development.
+
+# Detailed comparison 
+
+[Elements](./docs/elements)
