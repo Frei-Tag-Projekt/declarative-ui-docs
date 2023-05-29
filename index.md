@@ -18,6 +18,8 @@ React is an open-source JavaScript library for building user interfaces. It enab
 ## SwiftUI
 SwiftUI is a modern declarative framework developed by Apple for building user interfaces across Apple platforms. It allows developers to create robust and visually appealing apps using a simple and intuitive syntax. SwiftUI utilizes a declarative approach, enabling developers to describe the desired UI and state, while the framework handles the underlying complexities. It provides a wide range of built-in components and layout options, facilitating rapid app development. SwiftUI is designed to work seamlessly with the Swift programming language and leverages the power of SwiftUI’s live previews for real-time UI development and testing. With its strong integration with other Apple frameworks and tools, SwiftUI offers a streamlined and efficient way to build engaging user interfaces for iOS, macOS, watchOS, and tvOS.
 
+![SwiftUI Logo](./resources/swiftui.png)
+
 ## Jetpack Compose
 Jetpack Compose is a modern UI toolkit developed by Google for building native Android applications. It enables developers to create dynamic and interactive user interfaces using a declarative and composable approach. With Compose, developers can express the UI hierarchy and behavior as a function of the current state, simplifying UI development. It provides a wide range of customizable and reusable components, allowing for rapid prototyping and iteration. Jetpack Compose seamlessly integrates with existing Android codebases and supports live previews, enabling real-time UI development and testing. It offers improved performance and productivity compared to traditional Android UI frameworks, making it a powerful tool for building beautiful and responsive Android apps.
 
