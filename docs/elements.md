@@ -1,4 +1,8 @@
-# Text
+# Elements 
+
+Everyone of the frameworks has similar basic building blocks
+
+## Text
 
 #### SwiftUI
 
@@ -18,7 +22,7 @@ Text(‘Sample Text’);
 Text(“Sample Text”)
 ```
 
-# Button
+## Button
 
 #### SwiftUI
 
@@ -49,7 +53,7 @@ Button(
 }
 ```
 
-# Image
+## Image
 
 #### SwiftUI
 ```Swift
@@ -70,7 +74,7 @@ Image(
 )
 ```
 
-# Shapes
+## Shapes
 
 #### SwiftUI
 
@@ -81,7 +85,7 @@ Circle()
 
 ```
 
-# TextField
+## TextField
 
 #### SwiftUI
 
@@ -93,7 +97,7 @@ TextField($enteredText)
 
 ```
 
-# Sheet
+## Sheet
 
 #### SwiftUI
 
