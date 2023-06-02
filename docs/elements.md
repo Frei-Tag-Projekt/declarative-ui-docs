@@ -172,16 +172,27 @@ fun SimpleTextField() {
 
 Button(“Present Sheet”) {
   isSheetPresented = true
-}.sheet(isPresented: $isSheetPresented) {
+}.sheet(isPresented: $isSheetPresented, onDismiss: { /* Executed when the sheet is dismissed */ }) {
   Text(“Sheet is presented”)
 }
 ```
 
+[Docs](https://developer.apple.com/documentation/swiftui/view/sheet(ispresented:ondismiss:content:))
+
 #### Jetpack Compose
 
 ```Kotlin
-ModalBottomSheet(onDismissRequest = { /* Executed when the sheet is dismissed */ }) {
-    Text(”Sheet is presented”)
+var isSheetPresented by remember { mutableStateOf(false) }
+
+Button(
+    onClick = { isSheetPresented = true }
+) {
+    Text(“Present Sheet”)
+}
+if (isSheetPresented) {
+    ModalBottomSheet(onDismissRequest = { /* Executed when the sheet is dismissed */ }) {
+        Text(”Sheet is presented”)
+    }
 }
 ```
 
