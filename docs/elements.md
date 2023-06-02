@@ -102,9 +102,31 @@ Image(
 
 ```Swift
 Rectangle()
+    .fill(Color.red)
+    .frame(width: 100, height: 100)
 
 Circle()
+    .fill(Color.red)
+    .frame(width: 100, height: 100)
+    
+```
+[Docs](https://developer.apple.com/documentation/swiftui/shape)
 
+#### Flutter
+```Dart
+
+```
+
+#### Jetpack Compose
+
+```Kotlin
+Box(
+    modifier = Modifier.size(100.dp).clip(RectangleShape).background(Color.Red)
+)
+
+Box(
+    modifier = Modifier.size(100.dp).clip(CircleShape).background(Color.Red)
+)
 ```
 
 ## TextField
@@ -117,6 +139,20 @@ Circle()
 
 TextField($enteredText)
 
+```
+
+#### Jetpack Compose
+
+```Kotlin
+
+var enteredText by remember { mutableStateOf(TextFieldValue("Default Text")) }
+
+TextField(
+    value = text,
+    onValueChange = { newText ->
+        enteredText = newText
+    }
+)
 ```
 
 ## Sheet
