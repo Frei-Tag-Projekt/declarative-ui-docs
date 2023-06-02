@@ -4,6 +4,8 @@ Everyone of the frameworks has similar basic building blocks
 
 ## Text
 
+Text is really powerful in every framework, it is also one of the simplest building blocks. It displays the string that is passed to it.
+
 #### SwiftUI
 
 ```Swift
@@ -67,13 +69,18 @@ Button(
 
 #### SwiftUI
 ```Swift
-Image(“Asset Name”)
+Image(“AssetName”)
 ```
+
+[Docs](https://developer.apple.com/documentation/swiftui/image)
 
 #### Flutter
 
 ```Dart
+Image.asset(’pathTo/AssetName.png‘)
 ```
+
+[Docs](https://api.flutter.dev/flutter/widgets/Image/Image.asset.html)
 
 #### Jetpack Compose
 
@@ -83,6 +90,8 @@ Image(
     contentDescription = stringResource(id = R.string.dog_content_description)
 )
 ```
+
+[Docs](https://api.flutter.dev/flutter/widgets/Image/Image.asset.html)
 
 ## Shapes
 
