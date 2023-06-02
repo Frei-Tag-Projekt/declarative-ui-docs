@@ -1,1 +1,6 @@
-Add infos about us
+# Who cares about declarative UI
+
+## Jannik
+
+
+## Dominik
