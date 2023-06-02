@@ -134,26 +134,32 @@ Box(
 #### SwiftUI
 
 ```Swift
-
-@State var enteredText = “Default Text”
-
-TextField($enteredText)
-
+struct SimpleTextField: View {
+    @State var enteredText = “Default Text”
+    
+    var body: some View {
+        TextField($enteredText)
+    }
+}
 ```
 
 #### Jetpack Compose
 
 ```Kotlin
+@Composable
+fun SimpleTextField() {
+    var enteredText by remember { mutableStateOf(TextFieldValue("Default Text")) }
 
-var enteredText by remember { mutableStateOf(TextFieldValue("Default Text")) }
-
-TextField(
-    value = text,
-    onValueChange = { newText ->
-        enteredText = newText
-    }
-)
+    TextField(
+        value = text,
+        onValueChange = { newText ->
+            enteredText = newText
+        }
+    )
+}
 ```
+
+[Docs](https://developer.android.com/jetpack/compose/text#enter-modify-text)
 
 ## Sheet
 
